@@ -4,6 +4,12 @@
 ##16-264 - Humanoids
 
 Do this to setup: 
+
+- Install Homebrew
+- Install python 3 with homebrew and --framework (needed for matplotlib)
+- Install this to use matplotlib https://github.com/gldnspud/virtualenv-pythonw-osx
+ - Do the following guide: 
+
 http://www.pyimagesearch.com/2015/06/29/install-opencv-3-0-and-python-3-4-on-osx/
 but replace build command with this
 ```Shell
