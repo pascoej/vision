@@ -9,7 +9,7 @@ but replace build command with this
 ```Shell
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
   -D CMAKE_INSTALL_PREFIX=/usr/local \
-  -D PYTHON3_PACKAGES_PATH=~/.virtualenvs/cv3/lib/python3.5/site-packages \
+  -D PYTHON3_PACKAGES_PATH=~/.virtualenvs/opencv/lib/python3.5/site-packages \
   -D PYTHON3_LIBRARY=/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/lib/libpython3.5m.dylib \
   -D PYTHON3_INCLUDE_DIR=/usr/local/Cellar/python3/3.5.1/Frameworks/Python.framework/Versions/3.5/include/python3.5m \
   -D INSTALL_C_EXAMPLES=OFF \
