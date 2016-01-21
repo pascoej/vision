@@ -29,6 +29,7 @@ while True:
   cnts = sorted(contours,key=sort_key)[-2:] # Only want largest 2 contour
   cv2.drawContours(frame,cnts,-1,(0,255,0),3)#draw on orig
   cv2.imshow('bg',frame)
+  cv2.ResizeWindow('bg',400,281)
 
   if (cv2.waitKey(1) == ord('q')):
     break
