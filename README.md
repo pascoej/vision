@@ -16,7 +16,8 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
   -D INSTALL_PYTHON_EXAMPLES=ON \
   -D BUILD_EXAMPLES=ON \
   -D BUILD_opencv_python3=ON \
-  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules ..```
+  -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules ..
+  ```
 
 Also check out opencv version 3.1.0
 
